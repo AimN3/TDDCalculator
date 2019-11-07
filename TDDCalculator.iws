@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="" />
+    <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/SubtractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDCalculator.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +64,18 @@
     <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
@@ -57,6 +85,9 @@
     <entry key="Project Default">
       <profile-state />
     </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
@@ -68,8 +99,24 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/TDDCalculator/App.java" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="show.unlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="TDDCalculator" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="TDDCalculator" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.SubtractionTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -138,6 +185,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubtractionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDDCalculator" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.SubtractionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -163,6 +231,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SubtractionTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
@@ -180,6 +249,19 @@
       <updated>1572618145647</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
