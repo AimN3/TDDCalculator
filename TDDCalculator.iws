@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/SubtractionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDDCalculator.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -248,6 +240,14 @@
       <option name="presentableId" value="Default" />
       <updated>1572618145647</updated>
     </task>
+    <task id="LOCAL-00001" summary="testSutraction">
+      <created>1573144624503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573144624503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <MESSAGE value="testSutraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="testSutraction" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
 </project>

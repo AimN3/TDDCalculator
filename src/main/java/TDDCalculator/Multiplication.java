@@ -7,9 +7,11 @@ public class Multiplication extends AOperation{
             this.opSign = "*";
         }
         public int calculate() {
-            AOperand aOperand1 = new AOperand();
-            AOperand aOperand2 = new AOperand();
+            //AOperand aOperand1 = new AOperand();
+            //AOperand aOperand2 = new AOperand();
             int result;
+            Multiplication aOperand1 = null;
+            Multiplication aOperand2 = null;
             return result = aOperand1.calculate() + aOperand2.calculate();
         }
 

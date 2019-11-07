@@ -8,9 +8,11 @@ public class ModuloDivision extends AOperation {
         }
 
         public int calculate() {
-            AOperand aOperand1 = new AOperand();
-            AOperand aOperand2 = new AOperand();
+            //AOperand aOperand1 = new AOperand();
+           // AOperand aOperand2 = new AOperand();
                     int result;
+            ModuloDivision aOperand1 = null;
+            ModuloDivision aOperand2 = null;
             return result = aOperand1.calculate() % aOperand2.calculate();
 
         }

@@ -7,10 +7,12 @@ public class Division extends AOperation{
             this.opSign = "/";
         }
         public int calculate() {
-        AOperand aOperand1 = new AOperand();
-        AOperand aOperand2 = new AOperand();
+        //AOperand aOperand1 = new AOperand();
+        //AOperand aOperand2 = new AOperand();
         int result;
-        result = aOperand1.calculate() / aOperand2.calculate();
+            Division aOperand1 = null;
+            Division aOperand2 = null;
+           return result = aOperand1.calculate() / aOperand2.calculate();
 
         }
 
