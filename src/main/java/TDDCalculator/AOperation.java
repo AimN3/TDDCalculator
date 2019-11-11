@@ -17,9 +17,8 @@ public void setOpSigh(String opSigh) {
     if (opSigh == "+" || opSigh == "-" || opSigh == "/" || opSigh == "*" || opSigh == "%");
     this.opSign = opSigh;
 }
-@Override
-   public String toString () {
-    return aOperand1 + opSign + aOperand2 + "=" + calculate();
-}
+
 
 }
+
+

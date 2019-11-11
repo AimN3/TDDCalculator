@@ -4,11 +4,8 @@
     <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubtractionTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -136,6 +133,21 @@
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TDDCalculator.App" />
+      <module name="TDDCalculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.Main" />
       <module name="TDDCalculator" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -198,6 +210,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubtractionTest.SubtractionShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDDCalculator" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.SubtractionTest" />
+      <option name="METHOD_NAME" value="SubtractionShould" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -223,6 +257,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SubtractionTest.SubtractionShould" />
         <item itemvalue="JUnit.SubtractionTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
@@ -247,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573144624503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testSutraction">
+      <created>1573147247300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573147247300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

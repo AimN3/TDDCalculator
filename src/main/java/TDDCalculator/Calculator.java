@@ -17,12 +17,12 @@ public class Calculator {
                 String aStmt = scan.nextLine();
 
                 Parser parser = Parser.parse(aStmt);
-                Calculable var = Creator.getOperation(parser.getOp(),parser.getNum1(),parser.getNum2());
+                Calculable var = Creator.getOperation(parser.getOp(),parser.getAOperand1(),parser.getaOperand2());
                 System.out.println(var);
 
 
-                if (var == null) throw new AssertionError();
-                String opSign = var.getOpSign();  // var это объект который возвращает get.Operation
+               //if (var == null) throw new AssertionError();
+               //String opSign = var.getOpSign();  // var это объект который возвращает get.Operation
             }
             while (!op.equals("q")) ;
             return ("Exit");
