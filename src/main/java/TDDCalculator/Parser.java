@@ -5,12 +5,12 @@ import static java.lang.System.*;
 public class Parser {
 
         public static String aStmt;
-        private static AOperand aOperand1, aOperand2; //int num1, num2;
+        private static int num1, num2;
         private static String op;
 
-        public Parser(AOperand aOperand1, String op, AOperand aOperand2) { //(int num1, String op, int num2) {
-            this.aOperand1 = aOperand1; //this.num1 = num1;
-            this.aOperand2 = aOperand2; //this.num2 = num2;
+        public Parser (int num1, String op, int num2) {
+            this.num1 = num1;
+            this.num2 = num2;
             this.op = op;
         }// конструктор
         public static Parser parse(String aStmt) { // на вход принимае строку а на выходе
@@ -30,17 +30,14 @@ public class Parser {
                 out.println(op);
                 out.println(n2);
 
-
-                //aOperand1 = Integer.parseInt(n1);
-                //aOperand2 = Integer.parseInt(n2);
             }
-            return new Parser(aOperand1, op, aOperand2);
+            return new Parser(num1, op, num2);
         }
-        public AOperand getAOperand1() {
-            return this.aOperand1;
+        public int getNum1() {
+            return this.num1;
         }
-        public AOperand getaOperand2() {
-            return this.aOperand2;
+        public int getNum2() {
+            return this.num2;
         }
         public String getOp() {
             return this.op;
