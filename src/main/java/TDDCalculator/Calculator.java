@@ -1,4 +1,6 @@
 package TDDCalculator;
+import com.google.errorprone.annotations.Var;
+
 import static java.lang.System.*;
 import java.util.Scanner;
 public class Calculator {
@@ -18,7 +20,9 @@ public class Calculator {
 
                 Parser parser = Parser.parse(aStmt);
                 Calculable var = Creator.getOperation(parser.getOp(),parser.getAOperand1(),parser.getaOperand2());
-                System.out.println(var);
+
+
+                System.out.println(var.calculate());
 
 
                //if (var == null) throw new AssertionError();

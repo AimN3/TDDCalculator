@@ -4,8 +4,12 @@
     <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/AOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Addition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Creator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Creator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/ModuloDivision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Multiplication.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573147247300</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testSutraction">
+      <created>1573483752500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573483752500</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
