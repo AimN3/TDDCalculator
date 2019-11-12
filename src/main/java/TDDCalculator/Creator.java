@@ -1,12 +1,12 @@
 package TDDCalculator;
 
 public class Creator {
-    public static Calculable getOperation(String op, AOperand aOperand1, AOperand aOperand2) {            //на вход данные на выходе
-
+    public static Calculable getOperation(String op, int iOperand1, int iOperand2) {            //на вход данные на выходе
+    AOperand aOperand1 = new AOperand(iOperand1);
+    AOperand aOperand2 = new AOperand(iOperand2);
         switch (op.trim()) {
             case "+":
-                return new Addition(aOperand1, aOperand2);
-
+                return (new Addition(aOperand1, aOperand2));
             //взять объект  // вернуть объект
             case "-":
                 return (new Subtraction(aOperand1, aOperand2));

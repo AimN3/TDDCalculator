@@ -7,6 +7,7 @@ public class Addition extends AOperation {
 
         this.opSign = "+";
     }
+
     public int calculate() {
 return aOperand1.calculate() + aOperand2.calculate();
 

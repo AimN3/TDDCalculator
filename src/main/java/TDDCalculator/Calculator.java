@@ -19,7 +19,7 @@ public class Calculator {
                 String aStmt = scan.nextLine();
 
                 Parser parser = Parser.parse(aStmt);
-                Calculable var = Creator.getOperation(parser.getOp(),parser.getAOperand1(),parser.getaOperand2());
+                Calculable var = Creator.getOperation(parser.getOp(), parser.getNum1(), parser.getNum2());
 
 
                 System.out.println(var.calculate());
