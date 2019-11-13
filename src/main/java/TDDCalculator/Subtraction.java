@@ -2,8 +2,8 @@ package TDDCalculator;
 
 public class Subtraction extends AOperation {
 
-    public Subtraction (AOperand aOperand1, AOperand aOperand2) {//(AOperand num1, AOperand num2) {
-        super(aOperand1, aOperand2);  //super(num1, num2);
+    public Subtraction (AOperand aOperand1, AOperand aOperand2) {
+        super(aOperand1, aOperand2);
         this.opSign = "-";
     }
 

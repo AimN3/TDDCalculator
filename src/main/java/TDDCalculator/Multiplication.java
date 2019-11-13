@@ -8,7 +8,7 @@ public class Multiplication extends AOperation{
         }
         public int calculate() {
 
-            return aOperand1.calculate() + aOperand2.calculate();
+            return aOperand1.calculate() * aOperand2.calculate();
         }
 
 

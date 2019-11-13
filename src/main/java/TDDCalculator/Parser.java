@@ -29,7 +29,9 @@ public class Parser {
                 out.println(n1);
                 out.println(op);
                 out.println(n2);
+                num1 = Integer.parseInt(n1);
 
+                num2 = Integer.parseInt(n2);
             }
             return new Parser(num1, op, num2);
         }
