@@ -23,11 +23,14 @@ class ParserTest {
 
     @Test
     void getNum2Test() {
-        assertEquals(4, parser.getNum2());
+        assertEquals(5
+                , parser.getNum2());
     }
 
     @Test
     void getOpTest() {
-        assertEquals("+", parser.getOp());
-    }
+        //assertEquals("+", parser.getOp());
+    assertEquals("+", parser.getOp());
+}
+
 }
