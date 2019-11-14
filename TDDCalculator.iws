@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/CreatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/OutData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/AdditionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/DivisionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/InData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/MultiplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TDDCalculator/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/ParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDDCalculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDDCalculator/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/SubtractionTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="330" />
+    <option name="myElementSize" value="442" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -60,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -122,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CreatorTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -156,6 +160,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdditionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDDCalculator" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.AdditionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDCalculator" />
       <extension name="coverage">
@@ -166,6 +191,48 @@
       </extension>
       <option name="PACKAGE_NAME" value="TDDCalculator" />
       <option name="MAIN_CLASS_NAME" value="TDDCalculator.CreatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivisionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDDCalculator" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.DivisionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TDDCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TDDCalculator" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.MultiplicationTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -220,72 +287,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParserTest.getNum1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDDCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDDCalculator" />
-      <option name="MAIN_CLASS_NAME" value="TDDCalculator.ParserTest" />
-      <option name="METHOD_NAME" value="getNum1Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParserTest.getNum2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDDCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDDCalculator" />
-      <option name="MAIN_CLASS_NAME" value="TDDCalculator.ParserTest" />
-      <option name="METHOD_NAME" value="getNum2Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubtractionTest.SubtractionShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TDDCalculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TDDCalculator" />
-      <option name="MAIN_CLASS_NAME" value="TDDCalculator.SubtractionTest" />
-      <option name="METHOD_NAME" value="SubtractionShould" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -311,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CreatorTest" />
-        <item itemvalue="JUnit.ParserTest.getNum2Test" />
-        <item itemvalue="JUnit.ParserTest.getNum1Test" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SubtractionTest.SubtractionShould" />
+        <item itemvalue="JUnit.MultiplicationTest" />
+        <item itemvalue="JUnit.DivisionTest" />
+        <item itemvalue="JUnit.AdditionTest" />
+        <item itemvalue="JUnit.CreatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573661999954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CreatorTest">
+      <created>1573745304438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573745304438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +407,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <MESSAGE value="testSutraction" />
     <MESSAGE value="testParser" />
-    <option name="LAST_COMMIT_MESSAGE" value="testParser" />
+    <MESSAGE value="CreatorTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreatorTest" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -410,13 +419,16 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TDDCalculator$AdditionTest.ic" NAME="AdditionTest Coverage Results" MODIFIED="1573746207161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TDDCalculator.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/TDDCalculator$ParserTest_getNum1Test__1_.ic" NAME="ParserTest.getNum1Test (1) Coverage Results" MODIFIED="1573660468190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TDDCalculator.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TDDCalculator$CreatorTest.ic" NAME="CreatorTest Coverage Results" MODIFIED="1573737192124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TDDCalculator$CreatorTest.ic" NAME="CreatorTest Coverage Results" MODIFIED="1573745567239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TDDCalculator.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TDDCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1573580998960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TDDCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1573746830268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TDDCalculator.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TDDCalculator$ParserTest_getNum2Test.ic" NAME="ParserTest.getNum2Test Coverage Results" MODIFIED="1573661077455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

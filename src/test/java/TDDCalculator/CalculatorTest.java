@@ -13,7 +13,6 @@ class CalculatorTest {
     @Test
     @DisplayName("enter an arithmetic statement")
     void CorrectArithmeticStatement() {
-        new Scanner(scan.nextLine());
 
     }
 }
