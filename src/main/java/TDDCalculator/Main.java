@@ -5,6 +5,6 @@ public class Main {
         InData inData = new InData();
         OutData outData = new OutData();
         Calculator calc = new Calculator();
-        calc.start();
+        calc.start(inData, outData);
     }
 }
