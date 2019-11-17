@@ -15,6 +15,7 @@ public class Calculator {
                 //Scanner scan = new Scanner(in);
                 String text3 = "Please type an arithmetic statement you wish to be calculated";
                 outData.print(text3);
+                inData = new InData();
                 String aStmt = inData.nextLine();
 
                 Parser parser = Parser.parse(aStmt);
