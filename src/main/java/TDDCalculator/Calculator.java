@@ -5,7 +5,7 @@ import static java.lang.System.*;
 import java.util.Scanner;
 public class Calculator {
 
-        static Scanner scan;
+        //static Scanner scan;
         private String opSign;
 
         public String start(InData inData, OutData outData) {

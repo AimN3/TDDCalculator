@@ -4,7 +4,8 @@
     <list default="true" id="bbe94c7a-e377-4924-be0d-d4fde57cf8f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDDCalculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/TDDCalculator" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaProject1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CalcEngine" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -400,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573824301336</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Increasing a testability of Calculator.start() method">
+      <created>1573825000306</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1573825000306</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -426,6 +434,15 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="parser" />
