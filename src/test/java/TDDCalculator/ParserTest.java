@@ -23,8 +23,7 @@ class ParserTest {
 
     @Test
     void getNum2Test() {
-        assertEquals(5
-                , parser.getNum2());
+        assertEquals(5, parser.getNum2());
     }
 
     @Test

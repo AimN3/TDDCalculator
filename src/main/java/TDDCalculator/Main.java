@@ -1,5 +1,5 @@
 package TDDCalculator;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         InData inData = new InData();

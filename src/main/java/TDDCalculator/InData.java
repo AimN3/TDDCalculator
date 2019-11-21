@@ -1,10 +1,19 @@
 package TDDCalculator;
-
+import java.util.Scanner;
+import static java.lang.System.*;
 public class InData {
-String inData;
+
+    private Scanner sc;
+
+    public InData() {
+
+      Scanner sc = new Scanner(in);
+      this.sc = sc;
+    }
+
     public String nextLine() {
-    return (inData);
+
+        String data = sc.nextLine();
+        return (data);
     }
 }
-
-

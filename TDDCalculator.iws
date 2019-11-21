@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/TDDCalculator.iws" beforeDir="false" afterPath="$PROJECT_DIR$/TDDCalculator.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TDDCalculator/OutData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDDCalculator/OutData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TDDCalculator/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TDDCalculator/ParserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="442" />
+    <option name="myElementSize" value="474" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -66,6 +69,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="CalculatorTest" />
+    </enabled-run-configurations>
   </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
@@ -125,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.AdditionTest">
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -180,7 +188,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDCalculator" />
       <extension name="coverage">
         <pattern>
@@ -189,7 +197,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TDDCalculator" />
-      <option name="MAIN_CLASS_NAME" value="TDDCalculator.CreatorTest" />
+      <option name="MAIN_CLASS_NAME" value="TDDCalculator.CalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -311,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MultiplicationTest" />
         <item itemvalue="JUnit.DivisionTest" />
         <item itemvalue="JUnit.AdditionTest" />
-        <item itemvalue="JUnit.CreatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573998283369</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Increasing a testability of Calculator.start() method">
+      <created>1574002813644</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574002813644</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,9 +458,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TDDCalculator/InData.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/TDDCalculator/Parser.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -460,7 +475,10 @@
     <SUITE FILE_PATH="coverage/TDDCalculator$CreatorTest.ic" NAME="CreatorTest Coverage Results" MODIFIED="1573745567239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TDDCalculator.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TDDCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1573746830268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/TDDCalculator$Main.ic" NAME="Main Coverage Results" MODIFIED="1574373297272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TDDCalculator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TDDCalculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1574373651254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TDDCalculator.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TDDCalculator$ParserTest_getNum2Test.ic" NAME="ParserTest.getNum2Test Coverage Results" MODIFIED="1573661077455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

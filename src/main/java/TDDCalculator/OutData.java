@@ -1,9 +1,24 @@
 package TDDCalculator;
-
+import static java.lang.System.*;
 public class OutData {
-    public void print(String text3) {
+
+    public static void print(String text) {
+
+        out.print(text);
+    }
+    public static void print(int calculate)
+        {
+    out.print(calculate);
+        }
+
     }
 
-    public void print(int calculate) {
-    }
-}
+
+
+
+
+
+
+
+
+
