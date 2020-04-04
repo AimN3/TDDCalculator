@@ -1,6 +1,7 @@
 package TDDCalculator;
 import java.util.Scanner;
 import static java.lang.System.*;
+import java.util.ArrayList;
 public class InData {
 
     private Scanner sc;
@@ -13,7 +14,8 @@ public class InData {
 
     public String nextLine() {
 
-        String data = sc.nextLine();
+       String data = sc.nextLine();
+
         return (data);
     }
 }

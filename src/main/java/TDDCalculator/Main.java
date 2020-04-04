@@ -1,7 +1,8 @@
 package TDDCalculator;
-import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        GUIWindow.call();
         InData inData = new InData();
         OutData outData = new OutData();
         Calculator calc = new Calculator();
